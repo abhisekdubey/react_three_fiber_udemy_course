@@ -4,6 +4,7 @@ import {
   AxesHelperScene,
   CustomGeometryScene,
   LoaderScene,
+  Loading3DModel,
   ParticlesScene,
   Scene,
 } from "./components";
@@ -31,7 +32,8 @@ const App = () => {
       {/* <AxesHelperScene /> */}
       {/* <CustomGeometryScene /> */}
       {/* <LoaderScene /> */}
-      <ParticlesScene />
+      {/* <ParticlesScene /> */}
+      <Loading3DModel />
     </Canvas>
   );
 };
