@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import {
   AxesHelperScene,
   CustomGeometryScene,
+  Events,
   LoaderScene,
   Loading3DModel,
   ParticlesScene,
@@ -46,7 +47,8 @@ const App = () => {
 
     <>
       <Canvas>
-        <SceneForDebug />
+        {/* <SceneForDebug /> */}
+        <Events />
       </Canvas>
     </>
   );

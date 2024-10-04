@@ -5,6 +5,7 @@ import AxesHelperScene from "./AxesHelperScene";
 import ParticlesScene from "./ParticlesScene";
 import Loading3DModel from "./3dmodel/Loading3DModel";
 import SceneForDebug from "./Scene_For_Debug";
+import Events from "./Events";
 
 export {
   Scene,
@@ -14,4 +15,5 @@ export {
   ParticlesScene,
   Loading3DModel,
   SceneForDebug,
+  Events,
 };
