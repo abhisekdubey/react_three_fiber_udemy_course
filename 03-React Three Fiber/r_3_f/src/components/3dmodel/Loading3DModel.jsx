@@ -11,10 +11,10 @@ const Loading3DModel = () => {
         <meshBasicMaterial />
       </mesh> */}
       <ambientLight intensity={2} />
-      <directionalLight />
+      {/* <directionalLight /> */}
       <OrbitControls />
 
-      {/* <Suspense
+      <Suspense
         fallback={
           <mesh scale-y={2}>
             <boxGeometry />
@@ -23,8 +23,8 @@ const Loading3DModel = () => {
         }
       >
         <Model />
-      </Suspense> */}
-      <Bike />
+      </Suspense>
+      {/* <Bike /> */}
     </>
   );
 };
