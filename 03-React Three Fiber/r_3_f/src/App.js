@@ -7,6 +7,7 @@ import {
   Loading3DModel,
   ParticlesScene,
   Scene,
+  SceneForDebug,
 } from "./components";
 import { Perf } from "r3f-perf";
 
@@ -34,14 +35,20 @@ const App = () => {
     //   {/* <CustomGeometryScene /> */}
     //   {/* <LoaderScene /> */}
     //   {/* <ParticlesScene /> */}
-    //   <Loading3DModel />
+    //   {/* <Loading3DModel /> */}
     // </Canvas>
 
     // r3f-perf
-    <Canvas>
-      <Loading3DModel />
-      <Perf position="top-left" />
-    </Canvas>
+    // <Canvas>
+    //   <Loading3DModel />
+    //   <Perf position="top-left" />
+    // </Canvas>
+
+    <>
+      <Canvas>
+        <SceneForDebug />
+      </Canvas>
+    </>
   );
 };
 
