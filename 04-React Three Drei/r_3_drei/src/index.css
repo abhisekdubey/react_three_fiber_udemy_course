@@ -1,0 +1,14 @@
+html,
+body,
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: rgb(31, 31, 31);
+}
